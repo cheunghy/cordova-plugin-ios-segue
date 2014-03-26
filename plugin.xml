@@ -3,9 +3,9 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cheung.hoi.yu.segue"
-    version=¡°1.0.1¡±>
+    version="1.0.0">
     <name>Segue</name>
-    <description>A iOS Performing Segue Plugin for Cordova 3.x.x</description>
+    <description>A iOS Performing Segue Plugin for Cordova 3.x.x, https://github.com/cheunghy/cordova-plugin-ios-segue</description>
     <license>Apache 2.0</license>
     <author>Cheung Hoi Yu</author>
     <keywords>cordova,segue,ios,navigation,storyboard</keywords>
