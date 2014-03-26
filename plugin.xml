@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cheung.hoi.yu.segue"
+    version=¡°1.0.1¡±>
+    <name>Segue</name>
+    <description>A iOS Performing Segue Plugin for Cordova 3.x.x</description>
+    <license>Apache 2.0</license>
+    <author>Cheung Hoi Yu</author>
+    <keywords>cordova,segue,ios,navigation,storyboard</keywords>
+    
+    <engines>
+         <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+     <js-module src="www/segue.js" name="Segue">
+         <clobbers target="Segue" />
+     </js-module>
+
+     <!-- iOS only -->
+     <platform name="ios">
+         <config-file target="config.xml" parent="/*">
+             <feature name="Segue">
+                 <param name="ios-package" value="KYPushSeguePlugin" />
+             </feature>
+         </config-file>
+	
+         <header-file src="src/ios/KYPushSeguePlugin.h" />
+         <source-file src="src/ios/KYPushSeguePlugin.m" />
+
+     </platform>
+
+</plugin>
