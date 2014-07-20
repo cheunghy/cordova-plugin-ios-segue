@@ -15,7 +15,7 @@
     </engines>
 
      <js-module src="www/segue.js" name="Segue">
-         <clobbers target="Segue" />
+         <clobbers target="segue" />
      </js-module>
 
      <!-- iOS only -->

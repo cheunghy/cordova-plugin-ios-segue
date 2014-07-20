@@ -4,3 +4,5 @@ var segue = {
         cordova.exec(callback, callback, "segue", "performSegueWithUrlCommand", [segueIdentifier]);
     }
 };
+
+module.exports = segue;
